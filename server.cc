@@ -14,6 +14,7 @@ Server::~Server() {
 void
 Server::run() {
     // create and run the server
+    printf("%s \n", "Hello World");
     create();
     serve();
 }
